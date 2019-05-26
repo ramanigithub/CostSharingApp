@@ -1,0 +1,11 @@
+package com.assignment.shareapp.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.assignment.shareapp.model.PaymentActivity;
+
+@Repository
+public interface PaymentActivityRepository extends JpaRepository<PaymentActivity, Integer> {
+
+}
